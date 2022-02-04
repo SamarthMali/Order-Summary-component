@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Red Hat Display', sans-serif;
+    
+}
+
+
+body{
+    background-image: url(img/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: hsl(225, 100%, 94%);
+    font-size: 14px;
+}
+
+.main-content{
+    padding: 25px 28px;
+}
+
+.container{
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 329px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.img img{
+    height: 161px;
+}
+
+.first-content h4{
+    text-align: center;
+    font-size: 21px;
+    font-weight: 900;
+    margin-bottom: 11px;
+}
+
+.first-content p {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.second-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    background-color: hsl(225, 100%, 98%);
+    padding: 10px 0;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.icon{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.icon img{
+    margin-right: 14px;
+}
+
+.icon p{
+    font-weight: 600;
+    line-height: 21px;
+}
+
+.icon p span{
+    font-weight: 300;
+}
+
+a{
+    font-weight: 500;
+    color: hsl(245, 75%, 52%);
+}
+
+button{
+    position: relative;
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    width: 100%;
+    padding: 10px;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 0px 9px 8px rgb(56 41 224 / 27%);
+    font-weight: 600;
+}
+
+button:hover{
+    background-color: hsl(245, 89%, 65%);
+}
+
+.cancel-order{
+    text-align: center;
+    display: block;
+    margin-top: 19px;
+    text-decoration: none;
+    /* color: black; */
+    color: grey;
+    font-weight: 700;
+}
